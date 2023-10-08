@@ -1,0 +1,22 @@
+/* Aqui estou usando a classe Imp para colocar estilo nos h2 atraves das paginas */
+.Imp {
+    margin-top: 50px; /* Uma pequena alteração para que se tenha um espaço da barra de navegação */
+}
+/* Aqui estou usando a classe botao para colocar estilo nos buttons atraves das paginas */
+.botao {
+    padding: 15px; /* Uma alteração para que o texto do button fique mais distante da borda */
+    border-style: solid; /* Uma alteração para que as bordas fiquem evidentes */
+}
+/* Estou usando uma propriedade do links que caso o usuário ainda não tenha visitado o link fique com a cor preta */
+a:link {
+    color: black;
+}
+/* Estou usando outra propriedade para que caso o usuário ja tenha clicado no link ainda continue da mesma cor ja que eu não coloquei outra cor */
+a:visited {
+    color: black;
+}
+/* Estou usando aqui mais outra propriedade para que caso o usuário passe o mouse encima do link ele mude de cor para que seja claro para o usuário que ele esta prestes a clicar ali */
+a:hover {
+    color:antiquewhite
+}
+
