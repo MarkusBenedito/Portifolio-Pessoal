@@ -8,7 +8,18 @@
     border-style: solid; /* Uma alteração para que as bordas fiquem evidentes */
     border-radius: 13px;
 }
-
+/* Aqui eu usei um id para mudar a cor do link */
+#Github {
+    color: darkblue;
+}
+/* Aqui eu usei um id para mudar a cor do link */
+#Email {
+    color: darkblue;
+}
+/* Aqui eu usei um id para mudar a cor do link */
+#Tel {
+    color: darkblue;
+}
 /* Estou usando uma propriedade do links que caso o usuário ainda não tenha visitado o link fique com a cor preta e também tirei o sublinhado que ficava em baixo dos links */
 a:link {
     color: black;
