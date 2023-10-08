@@ -4,12 +4,15 @@
 }
 /* Aqui estou usando a classe botao para colocar estilo nos buttons atraves das paginas */
 .botao {
-    padding: 15px; /* Uma alteração para que o texto do button fique mais distante da borda */
+    padding: 15px; /* Uma alteração para que o texto do button fique mais distante da borda e também deixei as bordas mais arrendondas*/
     border-style: solid; /* Uma alteração para que as bordas fiquem evidentes */
+    border-radius: 13px;
 }
-/* Estou usando uma propriedade do links que caso o usuário ainda não tenha visitado o link fique com a cor preta */
+
+/* Estou usando uma propriedade do links que caso o usuário ainda não tenha visitado o link fique com a cor preta e também tirei o sublinhado que ficava em baixo dos links */
 a:link {
     color: black;
+    text-decoration: none;
 }
 /* Estou usando outra propriedade para que caso o usuário ja tenha clicado no link ainda continue da mesma cor ja que eu não coloquei outra cor */
 a:visited {
