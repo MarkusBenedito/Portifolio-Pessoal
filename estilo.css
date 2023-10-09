@@ -4,9 +4,9 @@
 }
 /* Aqui estou usando a classe botao para colocar estilo nos buttons atraves das paginas */
 .botao {
-    padding: 15px; /* Uma alteração para que o texto do button fique mais distante da borda e também deixei as bordas mais arrendondas*/
+    padding: 15px; /* Uma alteração para que o texto do button fique mais distante da borda*/
     border-style: solid; /* Uma alteração para que as bordas fiquem evidentes */
-    border-radius: 13px;
+    border-radius: 13px; /*Uma alteração para que as bordas fiquem mais arrendondas*/
 }
 /* Aqui eu usei um id para mudar a cor do link */
 #Github {
